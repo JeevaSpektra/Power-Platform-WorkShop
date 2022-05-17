@@ -116,8 +116,76 @@ a. You will also need to add a free trial of Office E3 and Power Automate per us
 Apps trial set-up, navigate to **admin.microsoft.com** and select **Purchase Services** from the left
 navigation area of **Billing**.
 
+[---------------IMAGE------------------]
+
+b. Search for and select **Office E3.** Click **details.** Find and select **start your free trial.**
+
+c.Search for and select **Power Automate per user** and **start your free trial.**
+
+d. **Assign licenses** for each of these to your **Power Apps user.** Select Active Users from the left
+navigation area of Users. Select your user, then select Licenses and Apps. Select the desired licenses and **Save
+changes.** You may need to refresh your browser to see the changes take effect.
+
+### Task 3: Install the Power Apps and Power Automate mobile applications (optional)
+1. **Install the Power Apps mobile application:** Go to the app store on your mobile device. Search for **“Power
+Apps”** and install the Power Apps mobile application. If prompted, keep push notifications enabled.
+2. **Install the Power Automate mobile application:** Go to the app store on your mobile device. Search for **“Power
+Automate”** and install the application. If prompted, keep push notifications enabled.
+
+### Task 4: Create a new environment and Microsoft Dataverse database instance
+If your environment is being provided for you, you can skip this task.
+
+You must have a newly created Microsoft Dataverse environment and database instance, that was **created just for this
+lab.** If you don’t have a new environment or have an older environment, follow the steps below to create the environment
+and provision the database instance.
+
+1. Open the Power Apps admin center by navigating to [Admin Power Apps](http://admin.powerapps.com/) in a web browser.
+
+2. In the Admin center, select **Environments** and click **+New**
       
-      
+ 3. Provide a name for the environment. A common practice is to use your name followed by “Test” so it is clear this
+is a test environment.
+
+4. Select **Trial**, select your **Region**, make sure **Create a database** is set to **Yes** , and click **Next.
+
+5. Select your **Language** and your **Currency** . Check **Yes** for Deploy sample apps and data, and then click **Save**
+
+**Note:** You can choose your local language and currency. However, the lab manuals were created using US dollars and
+English language configurations.
+
+6. You will see a screen listing all environments that will show the newly created environment.
+
+7. **IMPORANT:** You need to wait for the database to finish provisioning before trying to create an application. The
+**Status** will change to Ready when done.
+
+8. This may take few minutes to complete. Wait for it to complete before proceeding with creating an app. If it has
+been over two minutes, try refreshing the browser. Once the database has been created you should no longer see
+this “Preparing Instance” message. You can then proceed with the lab.
+
+
+Information in this document, including URL and other Internet Web site references, is subject to change without notice.
+Unless otherwise noted, the example companies, organizations, products, domain names, e-mail addresses, logos, people,
+places, and events depicted herein are fictitious, and no association with any real company, organization, product, domain
+name, e-mail address, logo, person, place or event is intended or should be inferred. Complying with all applicable
+copyright laws is the responsibility of the user. Without limiting the rights under copyright, no part of this document may
+be reproduced, stored in or introduced into a retrieval system, or transmitted in any form or by any means (electronic,
+mechanical, photocopying, recording, or otherwise), or for any purpose, without the express written permission of
+Microsoft Corporation.
+Microsoft may have patents, patent applications, trademarks, copyrights, or other intellectual property rights covering
+subject matter in this document. Except as expressly provided in any written license agreement from Microsoft, the
+furnishing of this document does not give you any license to these patents, trademarks, copyrights, or other intellectual
+property.
+The names of manufacturers, products, or URLs are provided for informational purposes only and Microsoft makes no
+representations and warranties, either expressed, implied, or statutory, regarding these manufacturers or the use of the
+products with any Microsoft technologies. The inclusion of a manufacturer or product does not imply endorsement of
+Microsoft of the manufacturer or product. Links may be provided to third party sites. Such sites are not under the control
+of Microsoft and Microsoft is not responsible for the contents of any linked site or any link contained in a linked site, or
+any changes or updates to such sites. Microsoft is not responsible for webcasting or any other form of transmission
+received from any linked site. Microsoft is providing these links to you only as a convenience, and the inclusion of any link
+does not imply endorsement of Microsoft of the site or the products contained therein.
+© 2022 Microsoft Corporation. All rights reserved.
+Microsoft and the trademarks listed at https://www.microsoft.com/enus/legal/intellectualproperty/Trademarks/Usage/General.aspx are trademarks of the Microsoft group of companies. All
+other trademarks are property of their respective owners.
       
       
       

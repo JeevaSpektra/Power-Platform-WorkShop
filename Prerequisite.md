@@ -116,7 +116,6 @@ a. You will also need to add a free trial of Office E3 and Power Automate per us
 Apps trial set-up, navigate to **admin.microsoft.com** and select **Purchase Services** from the left
 navigation area of **Billing**.
 
-[---------------IMAGE------------------]
 
 b. Search for and select **Office E3.** Click **details.** Find and select **start your free trial.**
 

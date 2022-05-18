@@ -161,6 +161,7 @@ English language configurations.
 been over two minutes, try refreshing the browser. Once the database has been created you should no longer see
 this “Preparing Instance” message. You can then proceed with the lab.
 
+# 
 
 Information in this document, including URL and other Internet Web site references, is subject to change without notice.
 Unless otherwise noted, the example companies, organizations, products, domain names, e-mail addresses, logos, people,

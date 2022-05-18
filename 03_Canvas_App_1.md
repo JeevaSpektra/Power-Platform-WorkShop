@@ -1,8 +1,6 @@
-
+# <img src="Media/Power%20app%20Logo.png" width="100" height="50">   Power Platform App in a Day 
 # Module 3: Get started with Power Apps
-
 ## Lab: How to build a canvas app, Part 1
-
 ### Important Notice (Effective November 2020):
 Common Data Service has been renamed to Microsoft Dataverse. Some terminology in Microsoft Dataverse has been updated. For example, entity is now table. Fields and records in Dataverse databases are now referred to as columns and rows.
 

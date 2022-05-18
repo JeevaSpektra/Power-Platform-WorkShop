@@ -20,195 +20,83 @@ Make sure to follow all the pre-requisite steps listed in this document before s
 is a cloud-based solution, you can complete all labs remotely.
 For a list of additional learning resources and introductory videos, see [Learning Resources](https://powerapps.microsoft.com/en-us/blog/microsoft-powerapps-learning-resources/)
 
-## Lab Structure and Learning Objectives
+While the applications are in the process of updating their user experience, some references to terminology for Microsoft Dataverse like entity (now **table**), field (now **column**), and record (now **row**) may be out of date. Please keep this in mind as you work through the labs. We expect to have our content fully up to date very soon. 
 
-The lab is divided into four modules, with one lab document provided for each module.
+For more information and for a complete list of affected terms, please visit [What is Microsoft Dataverse?](https://docs.microsoft.com/en-us/powerapps/maker/common-data-service/data-platform-intro#terminology-updates)
 
-1. #### **01-Power Apps Canvas App Lab Manual:**
+Scenario
+--------
 
-   Focuses on the basic concepts involved in building Power Apps Canvas apps. You will learn how to:
- 
-      • Connect to data sources and filter results based on specified criteria
-  
-      • Work with screens and navigation
-   
-      • Use controls, properties, formulas, and actions to customize the user experience
-      
-      • Display the logged in user’s name
-      
-      • Configure app settings
-      
-      • Save and share an app
-      
-      • Run an app on a mobile device.
+Bellows College is an educational organization with multiple buildings on campus. Campus visitors are currently recorded in paper journals. The information is not captured consistently, and there are no means to collect and analyze data about the visits across the entire campus.
 
-2. #### **02- Microsoft Dataverse Lab Manual:**
-    Introduces you to the Microsoft Dataverse. You will learn how to:
-     
-      • Create and customize a custom table
-     
-      • Use the Form control
+Campus administration would like to modernize their visitor registration system where access to the buildings is controlled by security personnel and all visits are required to be pre-registered and recorded by their hosts.
+
+Throughout this course, you will build applications and perform automation to enable the Bellows College administration and security personnel to manage and control access to the buildings on campus.
+
+In this Module 0 lab, you will acquire a Power Platform trial tenant and access the Power Platform admin center. In the admin center, you will then create your **Practice** environment that you will do the majority of your lab work in.
+
+## Exercise 1 – Setup
+
+### Task 1 - Acquire your Power Platform trial tenant
+
+1. Copy your **Microsoft 365 credentials** from the Authorized Lab Hoster.
+
+2. Navigate to <https://powerapps.microsoft.com> and click **Start free.**
+
+3. Under **Get started**, enter the email address from your Microsoft 365 credentials in the text box that says **Enter your work email address.**
+
+4. You see a prompt that you have an existing account with Microsoft. Select **Sign in.**
+
+5. Enter the password provided by the Authorized Lab Hoster. 
+
+6. Select **Yes** to stay signed in.
+
+### Task \#2 – Create environment
+
+1.  Access <https://admin.powerplatform.microsoft.com> and log in with your Microsoft 365 credentials if prompted again.
+
+2. Select **Environments** and click **+New.**
+
+    - For **Name**, enter **[My Initials] Practice.** (Example: AJ Practice.)
     
-      • Save data into the Microsoft Dataverse using the Form control.
+    - For **Type**, select **Trial** (do not select the Trial (subscription-based) option).
+    
+    - Change the toggle on **Create a database for this environment?** to **Yes.**
+    
+    - Leave all other selections as default and click **Next.**
+    
+    - On the next tab, leave all selections to default and click **Save.**
 
-3. #### **03-Power Apps Model-driven App Lab Manual:**
-     Introduces you to building Model-driven Power Apps. You will learn how to:
+3. Your **Practice** environment should now show in the list of Environments. 
+
+    > Your environment may take a few minutes to provision. Refresh the page if needed.
+
+# Exercise \#2: Provision a Power Apps portal
+
+**Objective:** Provisioning a Power Apps portal can take some time. In this exercise, you will create your Power Apps portal in your environment so that the provisioning process can be initiated. You will use this portal in a later lab.
+
+## Task \#1: Create Power Apps portal
+
+1.  Sign in to <https://make.powerapps.com>
+
+2.  If the **Environment** displayed in the top right is not your Practice environment, select your Environment.
+
+3.  Click on the **Portal from blank** panel under **Make your own app**
+
+    > If you do not see this option, try zooming out.
+
+4.  Provide new portal details
+
+    -   Enter **Bellows College Visitors** as the portal **Name**
+
+    -   Provide a unique URL; **something**.powerappsportals.com (if the name has been taken, choose a different one)
+
+    -   Select a base portal **Language**
+
+    -   Click **Create**
+
+    > The Portal provisioning process will run anywhere from 30 to 45 minutes. You do not have to wait, as this will continue while moving on to the next module.
+      
      
-      • Create a standalone Model-driven app.
-       
-      • Customize forms for the Model-driven app
-     
-      • Use a Business Process Flow to guide users through a process.
- 
-
-4. #### **04-Power Automate Lab Manual:**
-   Introduces you to Power Automate. You will learn how to:
-   
-      • Create a flow that is triggered when a new Microsoft Dataverse row is created
-  
-      • Automate sending approval requests
-  
-      • Customize the approval based on the Microsoft Dataverse row
-  
-      • Use the Approval center
-      
-#### How to start a module without completing previous module(s)
-The lab package includes a \ **Completed** folder which consists of a set of app packages. If you wish to start on a module
-without having completed the previous module(s), you may import a partially built app package. See the corresponding
-instructions in each of the subfolders within the “Completed” folder.
-
-   • To directly start working on Module 2 -> see instructions in \Completed\Module1 subfolder
-
-   • To directly start on Module 3 -> see instructions in \Completed\Module2 subfolder
-
-   • To directly start on Module 4 -> see instructions in \Completed\Module3 subfolder
-
-#### Pre-requisites: Before starting the hands-on labs
-
-NOTE: To participate in this training, you require an internet connection, and you will use the web version of the Power
-Apps Studio, which will run in a browser: Microsoft Edge, Google Chrome, or Safari.
-
-### Task 1: Download the Lab Files
-1. Download file [Lab Files](http://aka.ms/appinaday) (Copy Link)
-
-2. **Save a local copy of the lab contents:** Download the **PAHandsOnLabContent.zip** file for the lab from [Lab Files](http://aka.ms/appinaday).
-Save it to a local folder, such as C:\AppInADay. Extract the ZIP package. This package contains the sample data for the app, PDF copies of the lab manuals, and pre-built app packages.
-
-### Task 2: Sign-in to Power Apps
-<img src="Media/Causion.jpeg" width="40" height="30"> Find the group you most closely relate to below.
-
-|Instructions|Steps|
-| ---------------------------------------------  | --------------------------------------------------------- |
-| You are in a classroom led by an instructor.   | Follow their direction for all environment set-up details |
-| You are a licensed user of Microsoft products  | Follow step 1 below, and then proceed to the next task.  |
-| You are starting from scratch with no licenses and no instructor.  | Follow step 2 below, and then proceed to the next task.  |
-|You are a licensed user of Microsoft products, BUT your admin has policies in place to restrict your use of PowerApps|Follow step 2 below using a personal email account, and then proceed to the next task.|
-|You are really not sure which of the above you are.|Follow step 2 below using  personal email account a private/incognito browsersession,and then proceed to next task.|
-
-1. **Confirm that you are licensed to use Power Apps:** Go to [Make Power Apps](http://make.powerapps.com/) and sign-in with your business
-or school account. This is the same as your Office 365 or Dynamics 365 login. Sign up for a free developer plan for
-individual use, see [here](https://docs.microsoft.com/en-us/powerapps/maker/dev-community-plan). If you are not able to use Power Apps with your organizational credentials, you may review
-the instructions for provisioning a demo tenant in the next step using a personal email.
-2. **Start a trial of Power Apps:** Usage of Microsoft Dataverse requires a Power Apps premium
-license. Go to [Power Apps Pricing](https://powerapps.microsoft.com/pricing) and select the “Try free” option to start a free 30-day trial. For more detailed
-information on signing up for a free trial, see [here](https://docs.microsoft.com/en-us/powerapps/maker/signup-for-powerapps). Follow the prompts to set up your free trial of Power Apps.
-a. You will also need to add a free trial of Office E3 and Power Automate per user. After you have the Power
-Apps trial set-up, navigate to **admin.microsoft.com** and select **Purchase Services** from the left
-navigation area of **Billing**.
-
-
-b. Search for and select **Office E3.** Click **details.** Find and select **start your free trial.**
-
-c.Search for and select **Power Automate per user** and **start your free trial.**
-
-d. **Assign licenses** for each of these to your **Power Apps user.** Select Active Users from the left
-navigation area of Users. Select your user, then select Licenses and Apps. Select the desired licenses and **Save
-changes.** You may need to refresh your browser to see the changes take effect.
-
-### Task 3: Install the Power Apps and Power Automate mobile applications (optional)
-1. **Install the Power Apps mobile application:** Go to the app store on your mobile device. Search for **“Power
-Apps”** and install the Power Apps mobile application. If prompted, keep push notifications enabled.
-2. **Install the Power Automate mobile application:** Go to the app store on your mobile device. Search for **“Power
-Automate”** and install the application. If prompted, keep push notifications enabled.
-
-### Task 4: Create a new environment and Microsoft Dataverse database instance
-If your environment is being provided for you, you can skip this task.
-
-You must have a newly created Microsoft Dataverse environment and database instance, that was **created just for this
-lab.** If you don’t have a new environment or have an older environment, follow the steps below to create the environment
-and provision the database instance.
-
-1. Open the Power Apps admin center by navigating to [Admin Power Apps](http://admin.powerapps.com/) in a web browser.
-
-2. In the Admin center, select **Environments** and click **+New**
-      
- 3. Provide a name for the environment. A common practice is to use your name followed by “Test” so it is clear this
-is a test environment.
-
-4. Select **Trial**, select your **Region**, make sure **Create a database** is set to **Yes** , and click **Next.
-
-5. Select your **Language** and your **Currency** . Check **Yes** for Deploy sample apps and data, and then click **Save**
-
-**Note:** You can choose your local language and currency. However, the lab manuals were created using US dollars and
-English language configurations.
-
-6. You will see a screen listing all environments that will show the newly created environment.
-
-7. **IMPORANT:** You need to wait for the database to finish provisioning before trying to create an application. The
-**Status** will change to Ready when done.
-
-8. This may take few minutes to complete. Wait for it to complete before proceeding with creating an app. If it has
-been over two minutes, try refreshing the browser. Once the database has been created you should no longer see
-this “Preparing Instance” message. You can then proceed with the lab.
-
-# 
-
-Information in this document, including URL and other Internet Web site references, is subject to change without notice.
-Unless otherwise noted, the example companies, organizations, products, domain names, e-mail addresses, logos, people,
-places, and events depicted herein are fictitious, and no association with any real company, organization, product, domain
-name, e-mail address, logo, person, place or event is intended or should be inferred. Complying with all applicable
-copyright laws is the responsibility of the user. Without limiting the rights under copyright, no part of this document may
-be reproduced, stored in or introduced into a retrieval system, or transmitted in any form or by any means (electronic,
-mechanical, photocopying, recording, or otherwise), or for any purpose, without the express written permission of
-Microsoft Corporation.
-Microsoft may have patents, patent applications, trademarks, copyrights, or other intellectual property rights covering
-subject matter in this document. Except as expressly provided in any written license agreement from Microsoft, the
-furnishing of this document does not give you any license to these patents, trademarks, copyrights, or other intellectual
-property.
-The names of manufacturers, products, or URLs are provided for informational purposes only and Microsoft makes no
-representations and warranties, either expressed, implied, or statutory, regarding these manufacturers or the use of the
-products with any Microsoft technologies. The inclusion of a manufacturer or product does not imply endorsement of
-Microsoft of the manufacturer or product. Links may be provided to third party sites. Such sites are not under the control
-of Microsoft and Microsoft is not responsible for the contents of any linked site or any link contained in a linked site, or
-any changes or updates to such sites. Microsoft is not responsible for webcasting or any other form of transmission
-received from any linked site. Microsoft is providing these links to you only as a convenience, and the inclusion of any link
-does not imply endorsement of Microsoft of the site or the products contained therein.
-© 2022 Microsoft Corporation. All rights reserved.
-Microsoft and the trademarks listed at https://www.microsoft.com/enus/legal/intellectualproperty/Trademarks/Usage/General.aspx are trademarks of the Microsoft group of companies. All
-other trademarks are property of their respective owners.
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
       
   

@@ -150,7 +150,7 @@ In this task, you will configure a form to edit information about individual vis
     
     Your screen should look approximately like the following:
 
-![Canvas edit form](media/2-canvas-edit-form.png)
+![Canvas edit form](Media/2-canvas-edit-form.png)
 
 9.  To preserve work in progress, click **File** then click **Save**. Use the back arrow to return to the app.
 
@@ -221,7 +221,7 @@ Because number of visits continuously grows, users need a feature to filter the 
    
 Your screen should look approximately like the following:
 
-![Canvas filtering gallery](media/2-canvas-browse.png)
+![Canvas filtering gallery](Media/2-canvas-browse.png)
 
 10. To preserve work in progress, click **File** then click **Save**. Use the back arrow to return to the app.
 

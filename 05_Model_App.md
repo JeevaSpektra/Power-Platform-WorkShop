@@ -296,7 +296,6 @@ Now, we will clone the view to create a new view for today's visits.
    Your running app should look approximately like the following:
 
 ![Sample model driven app](Media/3-model-app.png)
-
 # Challenges
 
 * Select specific views and forms for Visits and Buildings

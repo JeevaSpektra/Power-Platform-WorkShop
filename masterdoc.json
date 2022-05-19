@@ -1,0 +1,32 @@
+[
+    {
+      "Name": "Azure Arc enabled data services",
+      "Language": "English",
+      "Files": [
+          {
+          "RawFilePath": "https://raw.githubusercontent.com/JeevaSpektra/Power-Platform-WorkShop/main/01_Prerequisite.md",
+          "Order": 1  
+        },
+        {
+          "RawFilePath": "https://raw.githubusercontent.com/JeevaSpektra/Power-Platform-WorkShop/main/02_CommonDataService.md",
+          "Order": 2 
+        },
+        {
+          "RawFilePath": "https://raw.githubusercontent.com/JeevaSpektra/Power-Platform-WorkShop/main/03_Canvas_App_1.md",
+          "Order": 3
+        },
+        {
+          "RawFilePath": "https://raw.githubusercontent.com/JeevaSpektra/Power-Platform-WorkShop/main/04_Canvas_App_2.md",
+          "Order": 4
+        },
+        {
+          "RawFilePath": "https://raw.githubusercontent.com/JeevaSpektra/Power-Platform-WorkShop/main/05_Model_App.md",
+          "Order": 5
+        },
+        {
+          "RawFilePath": "https://raw.githubusercontent.com/JeevaSpektra/Power-Platform-WorkShop/main/06_Portal_app.md",
+          "Order": 4
+        }
+      ]
+    }
+  ]

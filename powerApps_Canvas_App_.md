@@ -36,7 +36,7 @@ flows and database entities.
 
 ### Power Apps Canvas Studio Layout
 
-**Power Apps Canvas Studio** is available as a web application (Make Power Apps) that you can use in any modern browser.
+**Power Apps Canvas Studio** is available as a web application [(Make Power Apps)](http://make.powerapps.com/) that you can use in any modern browser.
 
 Power Apps Studio is designed to have a user interface familiar to users of the Office suite. It has three panes and a ribbon
 that make app creation feel **like building a slide deck in PowerPoint.** Formulas are entered within a function bar that
@@ -56,23 +56,15 @@ is like Excel. Studio components:
 
 ### Goals for this lab
 
-```
-After this lesson you will be able to:
-```
+After this lesson you will be able to: 
 - Create a Canvas App
-
-• (^) Add screens to your app
-
--^ Use formulas in your app
--^ Navigate between screens
+- Add screens to your app
+- Use formulas in your app
+- Navigate between screens
 - Customize galleries on your screens
--^ Capture a collection from your app
+- Capture a collection from your app
 
-```
-The time to complete
-this lab is [60]
-minutes.
-```
+- The time to completethis lab is [60]minutes.
 ### Introduction: Device Ordering Scenario
 
 Imagine an organization where every three years the employees go through a hardware refresh cycle. The organization

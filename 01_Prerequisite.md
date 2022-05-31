@@ -108,6 +108,17 @@ the app, PDF copies of the lab manuals, and pre-built app packages.
 |You are really not sure which of the above you are.|Follow step 2 below using a personal email account in a private/incognito browser session,then proceed to next task|
   
   
+1. **Confirm that you are licensed to use Power Apps:** Go to [Make Power Apps](http://make.powerapps.com/) and sign-in with your business
+or school account. This is the same as your Office 365 or Dynamics 365 login. Sign up for a free developer plan for
+individual use, see [here](https://docs.microsoft.com/en-us/powerapps/maker/dev-community-plan). If you are not able to use Power Apps with your organizational credentials, you may review
+the instructions for provisioning a demo tenant in the next step using a personal email.
+2. **Start a trial of Power Apps:** Usage of Microsoft Dataverse requires a Power Apps premium
+license. Go to [Power Apps Pricing](https://powerapps.microsoft.com/pricing) and select the “Try free” option to start a free 30-day trial. For more detailed
+information on signing up for a free trial, see [here](https://docs.microsoft.com/en-us/powerapps/maker/signup-for-powerapps). Follow the prompts to set up your free trial of Power Apps.
+a. You will also need to add a free trial of Office E3 and Power Automate per user. After you have the Power
+Apps trial set-up, navigate to **admin.microsoft.com** and select **Purchase Services** from the left
+navigation area of **Billing.**
+  
   
   
 

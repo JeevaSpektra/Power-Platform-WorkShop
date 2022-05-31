@@ -91,8 +91,8 @@ NOTE: To participate in this training, you require an internet connection, and y
 Apps Studio, which will run in a browser: Microsoft Edge, Google Chrome, or Safari.
 
 #### **Task 1: Download the Lab Files**
-1. Download file [Lab Files](http://aka.ms/appinaday)
-2. **Save a local copy of the lab contents:** Download the **PAHandsOnLabContent.zip** file for the lab from [Lab Files](http://aka.ms/appinaday).
+1. Download file [Lab Files](http://aka.ms/appinaday) .           http://aka.ms/appinaday
+3. **Save a local copy of the lab contents:** Download the **PAHandsOnLabContent.zip** file for the lab from [Lab Files](http://aka.ms/appinaday).
 Save it to a local folder, such as C:\AppInADay. Extract the ZIP package. This package contains the sample data for
 the app, PDF copies of the lab manuals, and pre-built app packages.
   

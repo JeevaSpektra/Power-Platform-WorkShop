@@ -130,8 +130,10 @@ locale, you can ignore any of the formulas indicated by the locale symbol.
 
 Task 1: Sign-in to Power Apps web studio
 
-1. Go to Power Apps and click Sign-in. You may also directly navigate to Make Power Apps.
+1. Go to [Power Apps](http://powerapps.microsoft.com/) and click Sign-in. You may also directly navigate to [Make Power Apps](http://make.powerapps.com/)
+
 2. Login to with your training account.
+ 
 3. Before creating an app, let’s switch to the correct environment. Click the Environment drop-down in the top
     right of the screen to switch to the new environment. (If your environment doesn't show up, try logging out
     and logging in again)
@@ -256,11 +258,11 @@ In the application settings page, you can:
 you share the app with. Subsequent saves are only visible to the app maker in the studio. You must explicitly publish it for all
 app users to get the update. For more details on saving, publishing and sharing apps, see:_
 
-_Publish App_
+[_Publish App_](https://powerapps.microsoft.com/tutorials/save-publish-app/)
 
-_Share App_
+[_Share App_](https://powerapps.microsoft.com/tutorials/share-app/)
 
-_Save and Publish App_
+[_Save and Publish App_](https://powerapps.microsoft.com/blog/saveandpublish/)
 
 ### Exercise 2: Add Device Gallery and Connect to Data Source
 

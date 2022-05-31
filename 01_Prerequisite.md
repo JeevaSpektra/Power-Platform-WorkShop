@@ -92,14 +92,20 @@ Apps Studio, which will run in a browser: Microsoft Edge, Google Chrome, or Safa
 
 #### **Task 1: Download the Lab Files**
 1. Download file [Lab Files](http://aka.ms/appinaday) .           http://aka.ms/appinaday
-3. **Save a local copy of the lab contents:** Download the **PAHandsOnLabContent.zip** file for the lab from [Lab Files](http://aka.ms/appinaday).
+2. **Save a local copy of the lab contents:** Download the **PAHandsOnLabContent.zip** file for the lab from [Lab Files](http://aka.ms/appinaday).
 Save it to a local folder, such as C:\AppInADay. Extract the ZIP package. This package contains the sample data for
 the app, PDF copies of the lab manuals, and pre-built app packages.
+ 
+#### **Task 2: Sign-in to Power Apps**
   
+<img src="Media/Causion.jpeg" width="60" height="35"> Find the group you most closely relate to below
   
-  
-  
-  
+| You are in a classroom led by an instructor. | Follow their direction for all environment set-up details. |
+| ------------- | ------------- |
+| You are a licensed user of Microsoft products.  | Follow step 1 below, and then proceed to the next task |
+|You are starting from scratch with no licenses and no instructor.| Follow step 2 below, and then proceed to the next task  |
+|You are a licensed user of Microsoft products, BUT your admin has policies in place to restrict your use of Power Apps| Follow step 2 below using a personal email account, and then proceed to the next task|
+|You are really not sure which of the above you are.|Follow step 2 below using a personal email account in a private/incognito browser session,then proceed to next task|
   
   
   

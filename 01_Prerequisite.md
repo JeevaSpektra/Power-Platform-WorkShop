@@ -19,84 +19,89 @@ compliant and scalable data service and app platform that is integrated into Pow
 Make sure to follow all the pre-requisite steps listed in this document before starting the labs. Because the Power Platform
 is a cloud-based solution, you can complete all labs remotely.
 For a list of additional learning resources and introductory videos, see [Learning Resources](https://powerapps.microsoft.com/en-us/blog/microsoft-powerapps-learning-resources/)
-
-While the applications are in the process of updating their user experience, some references to terminology for Microsoft Dataverse like entity (now **table**), field (now **column**), and record (now **row**) may be out of date. Please keep this in mind as you work through the labs. We expect to have our content fully up to date very soon. 
-
-For more information and for a complete list of affected terms, please visit [What is Microsoft Dataverse?](https://docs.microsoft.com/en-us/powerapps/maker/common-data-service/data-platform-intro#terminology-updates)
-
-Scenario
---------
-
-Bellows College is an educational organization with multiple buildings on campus. Campus visitors are currently recorded in paper journals. The information is not captured consistently, and there are no means to collect and analyze data about the visits across the entire campus.
-
-Campus administration would like to modernize their visitor registration system where access to the buildings is controlled by security personnel and all visits are required to be pre-registered and recorded by their hosts.
-
-Throughout this course, you will build applications and perform automation to enable the Bellows College administration and security personnel to manage and control access to the buildings on campus.
-
-In this Module 0 lab, you will acquire a Power Platform trial tenant and access the Power Platform admin center. In the admin center, you will then create your **Practice** environment that you will do the majority of your lab work in.
-
-## Exercise 1 – Setup
-
-### Task 1 - Acquire your Power Platform trial tenant
-
-1. Copy your **Microsoft 365 credentials** from the Authorized Lab Hoster.
-
-2. Navigate to <https://powerapps.microsoft.com> and click **Start free.**
-
-3. Under **Get started**, enter the email address from your Microsoft 365 credentials in the text box that says **Enter your work email address.**
-
-4. You see a prompt that you have an existing account with Microsoft. Select **Sign in.**
-
-5. Enter the password provided by the Authorized Lab Hoster. 
-
-6. Select **Yes** to stay signed in.
-
-### Task \#2 – Create environment
-
-1.  Access <https://admin.powerplatform.microsoft.com> and log in with your Microsoft 365 credentials if prompted again.
-
-2. Select **Environments** and click **+New.**
-
-    - For **Name**, enter **[My Initials] Practice.** (Example: AJ Practice.)
-    
-    - For **Type**, select **Trial** (do not select the Trial (subscription-based) option).
-    
-    - Change the toggle on **Create a database for this environment?** to **Yes.**
-    
-    - Leave all other selections as default and click **Next.**
-    
-    - On the next tab, leave all selections to default and click **Save.**
-
-3. Your **Practice** environment should now show in the list of Environments. 
-
-    > Your environment may take a few minutes to provision. Refresh the page if needed.
-
-# Exercise \#2: Provision a Power Apps portal
-
-**Objective:** Provisioning a Power Apps portal can take some time. In this exercise, you will create your Power Apps portal in your environment so that the provisioning process can be initiated. You will use this portal in a later lab.
-
-## Task \#1: Create Power Apps portal
-
-1.  Sign in to <https://make.powerapps.com>
-
-2.  If the **Environment** displayed in the top right is not your Practice environment, select your Environment.
-
-3.  Click on the **Portal from blank** panel under **Make your own app**
-
-    > If you do not see this option, try zooming out.
-
-4.  Provide new portal details
-
-    -   Enter **Bellows College Visitors** as the portal **Name**
-
-    -   Provide a unique URL; **something**.powerappsportals.com (if the name has been taken, choose a different one)
-
-    -   Select a base portal **Language**
-
-    -   Click **Create**
-
-    > The Portal provisioning process will run anywhere from 30 to 45 minutes. You do not have to wait, as this will continue while moving on to the next module.
       
-     
-      
+ ### **Lab Structure and Learning Objectives**
+ 
+The lab is divided into four modules, with one lab document provided for each module.
+
+**1. 01-Power Apps Canvas App Lab Manual:**
+
+  Focuses on the basic concepts involved in building Power Apps Canvas apps. You will learn how to:
+
+  • Connect to data sources and filter results based on specified criteria
+
+  • Work with screens and navigation
+
+  • Use controls, properties, formulas, and actions to customize the user experience
+
+  • Display the logged in user’s name
+
+  • Configure app settings
+
+  • Save and share an app
+
+  • Run an app on a mobile device
+
+**2. 02- Microsoft Dataverse Lab Manual:**
+
+  Introduces you to the Microsoft Dataverse. You will learn how to:
+
+  • Create and customize a custom table
+
+  • Use the Form control
+
+  • Save data into the Microsoft Dataverse using the Form control
+
+**3. 03-Power Apps Model-driven App Lab Manual:**
+
+  Introduces you to building Model-driven Power Apps. You will learn how to:
+
+  • Create a standalone Model-driven app.
+
+  • Customize forms for the Model-driven app
+
+  • Use a Business Process Flow to guide users through a process
+
+**4. 04-Power Automate Lab Manual:**
+
+  Introduces you to Power Automate. You will learn how to:
   
+  • Create a flow that is triggered when a new Microsoft Dataverse row is created
+  
+  • Automate sending approval requests
+
+  • Customize the approval based on the Microsoft Dataverse row
+
+  • Use the Approval center
+
+  ### **How to start a module without completing previous module(s)**
+  
+   The lab package includes a **\Completed** folder which consists of a set of app packages. If you wish to start on a module
+   without having completed the previous module(s), you may import a partially built app package. See the corresponding
+   instructions in each of the subfolders within the “Completed” folder.
+   
+• To directly start working on Module 2 -> see instructions in \Completed\Module1 subfolder
+
+• To directly start on Module 3 -> see instructions in \Completed\Module2 subfolder
+
+• To directly start on Module 4 -> see instructions in \Completed\Module3 subfolder
+### **Pre-requisites: Before starting the hands-on labs**
+
+NOTE: To participate in this training, you require an internet connection, and you will use the web version of the Power
+Apps Studio, which will run in a browser: Microsoft Edge, Google Chrome, or Safari.
+
+#### **Task 1: Download the Lab Files**
+1. Download file [Lab Files](http://aka.ms/appinaday)
+2. **Save a local copy of the lab contents:** Download the **PAHandsOnLabContent.zip** file for the lab from [Lab Files](http://aka.ms/appinaday).
+Save it to a local folder, such as C:\AppInADay. Extract the ZIP package. This package contains the sample data for
+the app, PDF copies of the lab manuals, and pre-built app packages.
+  
+  
+  
+  
+  
+  
+  
+  
+  
+

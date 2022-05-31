@@ -119,6 +119,46 @@ a. You will also need to add a free trial of Office E3 and Power Automate per us
 Apps trial set-up, navigate to **admin.microsoft.com** and select **Purchase Services** from the left
 navigation area of **Billing.**
   
+  b. Search for and select **Office E3.** Click details. Find and select **start your free trial**
  
+  c. Search for and select **Power Automate** per user and start **your free trial.**
   
+  d. **Assign licenses** for each of these to your Power Apps user. Select Active Users from the left
+navigation area of Users. Select your user, then select Licenses and Apps. Select the desired licenses and **Save**
+changes. You may need to refresh your browser to see the changes take effect.
 
+##### Task 3 : Install the Power Apps and Power Automate mobile applications (optional)
+
+1. **Install the Power Apps mobile application** : Go to the app store on your mobile device. Search for “ **Power**
+    **Apps** ” and install the Power Apps mobile application. If prompted, keep push notifications enabled.
+2. **Install the Power Automate mobile application** : Go to the app store on your mobile device. Search for “ **Power**
+    **Automate** ” and install the application. If prompted, keep push notifications enabled.
+
+##### Task 4: Create a new environment and Microsoft Dataverse database instance
+
+_If your environment is being provided for you, you can skip this task._
+
+You must have a newly created Microsoft Dataverse environment and database instance, that was **created just for this
+lab.** If you don’t have a new environment or have an older environment, follow the steps below to create the environment
+and provision the database instance.
+
+
+1. Open the Power Apps admin center by navigating to [Admin Power Apps](http://admin.powerapps.com/) in a web browser.
+2. In the Admin center, select **Environments** and click **+New**.
+3. Provide a name for the environment. A common practice is to use your name followed by “Test” so it is clear this
+    is a test environment.
+
+4. Select **Trial** , select your **Region** , make sure **Create a database** is set to **Yes** , and click **Next**.
+5. Select your **Language** and your **Currency**. Check **Yes** for Deploy sample apps and data, and then click **Save**.
+
+Note : You can choose your local language and currency. However, the lab manuals were created using US dollars and
+English language configurations.
+
+6. You will see a screen listing all environments that will show the newly created environment.
+
+7. **IMPORANT** : You need to wait for the database to finish provisioning before trying to create an application. The
+    **Status** will change to Ready when done.
+    
+8. This may take few minutes to complete. Wait for it to complete before proceeding with creating an app. If it has
+    been over two minutes, try refreshing the browser. Once the database has been created you should no longer see
+    this “Preparing Instance” message. You can then proceed with the lab.
